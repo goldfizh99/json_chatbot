@@ -1,0 +1,26 @@
+[
+  {
+    "response_type": "symptom",
+    "user_input": ["i'm", "feeling", "sick"],
+    "bot_response": "I'm sorry to hear that. Can you describe your symptoms in more detail?",
+    "required_words": ["sick"]
+  },
+  {
+    "response_type": "symptom",
+    "user_input": ["i", "have", "a", "headache"],
+    "bot_response": "Have you noticed any other symptoms alongside the headache?",
+    "required_words": ["headache"]
+  },
+  {
+    "response_type": "symptom",
+    "user_input": ["what", "should", "i", "do", "if", "i", "have", "a", "fever"],
+    "bot_response": "It sounds like you may have a fever. Please consult a doctor if it persists.",
+    "required_words": ["fever"]
+  },
+  {
+    "response_type": "symptom",
+    "user_input": ["i", "feel", "nauseous"],
+    "bot_response": "I'm sorry to hear that. How long have you felt nauseous?",
+    "required_words": ["nauseous"]
+  }
+]

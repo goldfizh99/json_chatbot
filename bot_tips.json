@@ -1,0 +1,21 @@
+[
+    {
+      "response_type": "tips",
+      "user_input": ["can", "you", "give", "me", "some", "health", "tips"],
+      "bot_response": "Sure! Drink plenty of water, get regular exercise, and try to eat a balanced diet with fruits and vegetables.",
+      "required_words": ["health", "tips"]
+    },
+    {
+      "response_type": "tips",
+      "user_input": ["how", "can", "i", "improve", "my", "health"],
+      "bot_response": "To stay healthy, it's important to get enough sleep, manage stress, and maintain regular medical check-ups.",
+      "required_words": ["improve", "health"]
+    },
+    {
+      "response_type": "tips",
+      "user_input": ["what", "can", "i", "do", "to", "stay", "healthy"],
+      "bot_response": "Regular physical activity, a healthy diet, and avoiding smoking are great ways to improve your health.",
+      "required_words": ["stay", "healthy"]
+    }
+  ]
+  

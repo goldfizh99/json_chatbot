@@ -1,0 +1,21 @@
+[
+    {
+      "response_type": "insurance",
+      "user_input": ["does", "this", "clinic", "accept", "insurance"],
+      "bot_response": "We accept most major insurance providers. Could you specify your provider?",
+      "required_words": ["accept", "insurance"]
+    },
+    {
+      "response_type": "insurance",
+      "user_input": ["what", "insurances", "do", "you", "accept"],
+      "bot_response": "Please check with our clinic for specific insurance coverage details.",
+      "required_words": ["insurance", "insurances", "what"]
+    },
+    {
+      "response_type": "insurance",
+      "user_input": ["can", "i", "use", "my", "insurance", "for", "this"],
+      "bot_response": "Yes, you can use insurance. Would you like me to check your coverage?",
+      "required_words": ["use", "insurance"]
+    }
+  ]
+  

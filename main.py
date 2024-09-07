@@ -2,17 +2,34 @@ import json
 import re
 import random_responses
 
-
 # Load JSON data
 def load_json(file):
     with open(file) as bot_responses:
         print(f"Loaded '{file}' successfully!")
         return json.load(bot_responses)
 
+# Load multiple JSON files and combine data
+def load_multiple_json(files):
+    combined_responses = []
+    for file in files:
+        combined_responses.extend(load_json(file))  # Combine the loaded JSON data
+    return combined_responses
 
-# Store JSON data
-response_data = load_json("bot.json")
+# Specify the files you want to load
+# Add more files as needed
+json_files = ["bot.json", 
+              "bot_appointment.json", 
+              "bot_availability.json",
+              "bot_conditions.json",
+              "bot_emergency.json",
+              "bot_insurance.json",
+              "bot_medication.json",
+              "bot_results.json",
+              "bot_symptom.json",
+              "bot_tips.json"]
 
+# Store combined JSON data
+response_data = load_multiple_json(json_files)
 
 def get_response(input_string):
     split_message = re.split(r'\s+|[,;?!.-]\s*', input_string.lower())
@@ -59,6 +76,7 @@ def get_response(input_string):
     return random_responses.random_string()
 
 
+# Main loop
 while True:
     user_input = input("You: ")
     print("Bot:", get_response(user_input))

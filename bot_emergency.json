@@ -1,0 +1,27 @@
+[
+    {
+      "response_type": "emergency",
+      "user_input": ["what", "should", "i", "do", "in", "an", "emergency"],
+      "bot_response": "If you're in an emergency, please call 911 (or your local emergency number) immediately.",
+      "required_words": ["emergency"]
+    },
+    {
+      "response_type": "emergency",
+      "user_input": ["i", "need", "urgent", "help"],
+      "bot_response": "For immediate assistance, contact emergency services right away.",
+      "required_words": ["help"]
+    },
+    {
+      "response_type": "emergency",
+      "user_input": ["my", "friend", "fainted", "what", "should", "i", "do"],
+      "bot_response": "Fainting can be a sign of something serious. Please call emergency services.",
+      "required_words": ["fainted"]
+    },
+    {
+      "response_type": "emergency",
+      "user_input": ["help", "i'm", "having", "trouble", "breathing"],
+      "bot_response": "If you're having trouble breathing, seek emergency medical attention immediately.",
+      "required_words": ["trouble", "breathing"]
+    }
+  ]
+  

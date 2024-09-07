@@ -1,0 +1,21 @@
+[
+    {
+      "response_type": "availability",
+      "user_input": ["is", "dr", "smith", "available"],
+      "bot_response": "Let me check the availability of Dr. Smith. Could you provide a date?",
+      "required_words": ["smith", "available"]
+    },
+    {
+      "response_type": "availability",
+      "user_input": ["can", "i", "speak", "with", "a", "doctor", "now"],
+      "bot_response": "Doctors are available by appointment. Would you like to book one?",
+      "required_words": ["speak", "doctor", "talk"]
+    },
+    {
+      "response_type": "availability",
+      "user_input": ["when", "is", "the", "next", "available", "doctor", "appointment"],
+      "bot_response": "I can help you schedule the next available appointment with a doctor.",
+      "required_words": ["doctor", "appointment"]
+    }
+  ]
+  

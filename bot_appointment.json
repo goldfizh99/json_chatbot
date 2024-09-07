@@ -1,0 +1,26 @@
+[
+  {
+    "response_type": "appointment",
+    "user_input": ["i", "need", "to", "book", "an", "appointment"],
+    "bot_response": "Sure! I can help with that. When would you like to schedule your appointment?",
+    "required_words": ["book", "appointment"]
+  },
+  {
+    "response_type": "appointment",
+    "user_input": ["can", "i", "schedule", "a", "visit", "with", "the", "doctor"],
+    "bot_response": "Please provide your preferred date and time for the appointment.",
+    "required_words": ["visit", "doctor"]
+  },
+  {
+    "response_type": "appointment",
+    "user_input": ["i", "want", "to", "see", "a", "physician"],
+    "bot_response": "I can assist you in booking an appointment. Could you tell me your availability?",
+    "required_words": ["see", "physician"]
+  },
+  {
+    "response_type": "appointment",
+    "user_input": ["how", "can", "i", "book", "a", "check-up"],
+    "bot_response": "Sure! When would you like to come in for your check-up?",
+    "required_words": ["book", "check-up"]
+  }
+]

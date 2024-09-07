@@ -1,0 +1,26 @@
+[
+    {
+      "response_type": "medication",
+      "user_input": ["can", "i", "take", "ibuprofen", "headache"],
+      "bot_response": "It's always best to consult your doctor, but ibuprofen is commonly used for headaches. How severe is the pain?",
+      "required_words": ["ibuprofen", "headache"]
+    },
+    {
+      "response_type": "medication",
+      "user_input": ["what", "are", "side", "effects", "medication"],
+      "bot_response": "Every medication has potential side effects. Could you specify which medicine you're asking about?",
+      "required_words": ["side", "effects", "medication"]
+    },
+    {
+      "response_type": "medication",
+      "user_input": ["can", "i", "take", "this", "prescription"],
+      "bot_response": "It's important to ensure your medications don't interact. Please consult with your doctor or pharmacist for personalized advice.",
+      "required_words": ["prescription"]
+    },
+    {
+      "response_type": "medication",
+      "user_input": ["what", "is", "dosage", "medicine"],
+      "bot_response": "For dosage information, it's best to follow the advice of your doctor or the instructions provided with the medication.",
+      "required_words": ["dosage", "medicine"]
+    }
+  ]

@@ -1,0 +1,26 @@
+[
+  {
+    "response_type": "condition",
+    "user_input": ["what", "is", "diabetes"],
+    "bot_response": "Diabetes is a condition that affects how your body processes blood sugar. Would you like to know more about treatment or symptoms?",
+    "required_words": ["diabetes"]
+  },
+  {
+    "response_type": "condition",
+    "user_input": ["explain", "hypertension"],
+    "bot_response": "Hypertension, or high blood pressure, is a common condition that can lead to serious health issues if untreated. Do you want to know about prevention?",
+    "required_words": ["hypertension"]
+  },
+  {
+    "response_type": "condition",
+    "user_input": ["what", "are", "symptoms", "covid-19"],
+    "bot_response": "COVID-19 symptoms typically include fever, cough, and difficulty breathing. Please consult a doctor if you're experiencing these symptoms.",
+    "required_words": ["symptoms", "covid-19", "covid19"]
+  },
+  {
+    "response_type": "condition",
+    "user_input": ["tell", "me", "about", "asthma"],
+    "bot_response": "Asthma is a condition that affects the airways in your lungs, causing difficulty breathing. Would you like to learn about managing asthma symptoms?",
+    "required_words": ["asthma"]
+  }
+]
